@@ -4,7 +4,7 @@ import React from 'react'
 export default function ScrollableCard() {
   return (
     <View >
-      <Text style={styles.headingText}>ScrollableCard</Text>
+      <Text style={styles.headingText}>Scrollable Card</Text>
       <ScrollView horizontal style={styles.container}>
         <View style={[styles.card,styles.scrollable]}>
             <Text>Tap</Text>
@@ -34,8 +34,8 @@ const styles = StyleSheet.create({
     },
     container:{
         flex:1,
-        flexDirection:'row',
-        // padding:8
+        // flexDirection:'row',
+        padding:8
     },
     card:{
         width:100,
@@ -44,8 +44,8 @@ const styles = StyleSheet.create({
         alignItems:'center',
         justifyContent:'center',
         borderWidth:1,
-        borderRadius:5,
-        margin:4
+        borderRadius:1,
+        margin:6
     },
     scrollable:{
         backgroundColor:'red'
